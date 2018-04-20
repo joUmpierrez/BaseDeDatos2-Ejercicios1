@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BaseDeDatos2_Ejercicios">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="JOAQUIN:JOAQUIN\Joaquin Razer">
+          <Created>2018-04-20T12:54:28.1389533-03:00</Created>
+          <Type>SQL</Type>
+          <Server>JOAQUIN</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DatosPrueba.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DatosPrueba.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DLL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DLL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DML.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ejecuciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Ejecuciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProcAlmacenados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ProcAlmacenados.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
