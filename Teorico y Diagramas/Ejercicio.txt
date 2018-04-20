@@ -7,7 +7,7 @@ Utilizando las siguientes tablas:
 -- Maquinas(matricula,descripcion,costoHora,colorMaq)
 
 
-Crear la base de datos Constructora y las tablas utilizando DDL sabiendo que :
+A) Crear la base de datos Constructora y las tablas utilizando DDL sabiendo que :
 
 1) El sueldo de los empleados debe estar entre 0 y 10000
 2) El capataz de la obra no puede repetirse en la tabla obras
@@ -16,7 +16,8 @@ Crear la base de datos Constructora y las tablas utilizando DDL sabiendo que :
 5) No pueden existir descripciones de maquinas nulas
 6) Modificar la tabla ciudades para que los campos intendente y alcalde sean únicos
 
-Realizar vistas que permitan obtener los siguientes informes:
+
+B) Realizar vistas que permitan obtener los siguientes informes:
 
 1) Mostrar todos los datos de los empleados con sueldo mayor a 10000
 2) Mostrar todos los datos de los empleados que trabajan en obras de ‘Montevideo’.
@@ -25,3 +26,25 @@ Realizar vistas que permitan obtener los siguientes informes:
 5) Mostrar el promedio de horas que los empleados trabajaron en las obras por ciudad.
 6) Mostrar la descripción de las maquinas de color ‘Rojo’ cuyo costo hora es menor a 10 y no hayan sido usadas.
 7) Mostrar el costo hora mayor de todas las maquinas.
+
+
+C) Realizar vistas que permitan obtener los siguientes informes:
+
+1) Mostrar todos los datos de los empleados con sueldo mayor a 10000
+2) Mostrar todos los datos de los empleados que trabajan en obras de ‘Montevideo’.
+3) Mostrar la descripción de las máquinas con costo de hora distinto de 0 y que operarios las operan.
+4) Mostrar el sueldo total de los empleados.
+5) Mostrar el promedio de horas que los empleados trabajaron en las obras por ciudad.
+6) Mostrar la descripción de las maquinas de color ‘Rojo’ cuyo costo hora es menor a 10 y no hayan sido usadas.
+7) Mostrar el costo hora mayor de todas las maquinas.
+
+
+D) Usando la base de datos Constructora crear procedimientos almacenados para las siguientes tareas:
+
+1) Ingresar un empleado recibiendo sus datos por parámetro.
+2) Asignar a un empleado existente una obra y máquina nueva.
+3) Eliminar un determinado empleado y sus trabajos.
+4) Modificar el sueldo de un determinado empleado.
+5) Dado el nombre de una ciudad mostrar todas las obras que hay en ella.
+6) Dado el nombre de una ciudad indicar la cantidad de obras que hay en ella.
+7) Dado el código de una obra mostrar el promedio de sueldo de sus empleados.

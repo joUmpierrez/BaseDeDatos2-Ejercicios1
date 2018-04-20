@@ -16,7 +16,7 @@ WHERE nomCiud = 'Montevideo';
 
 -- 3) Descripcion de las maquinas con costo de hora distinto de 0 y sus operarios
 CREATE VIEW [Maquinas Costo0 Operarios] AS
-SELECT matricula, descripcion, costoHora, colorMaq, Empleados.ci, Empleados.nombre, Empleados.sueldo FROM Maquinas
+SELECT descripcion, Empleados.ci, Empleados.nombre, Empleados.sueldo FROM Maquinas
 INNER JOIN Trabajan ON Maquinas.matricula = Trabajan.matriculaMaq
 INNER JOIN Empleados ON Trabajan.ciEmp = Empleados.ci
 WHERE Maquinas.costoHora > 0;
@@ -36,3 +36,18 @@ NOT EXISTS (SELECT * FROM Trabajan WHERE Trabajan.matriculaMaq = Maquinas.matric
 -- 7) Costo hora mayor de todas las maquinas
 CREATE VIEW [Maquinas CostoMayor] AS
 SELECT MAX(costoHora) AS Costo FROM Maquinas;
+
+
+-- EJECUTAR
+-- 1)
+SELECT * FROM [Empleados Sueldos Mayores 5000];
+-- 2)
+SELECT * FROM [Empleados Trabajan Montevideo];
+-- 3)
+SELECT * FROM [Maquinas Costo0 Operarios];
+-- 4)
+SELECT * FROM [Empleados SueldoTotal];
+-- 6)
+SELECT * FROM [Maquinas Rojo NoUsadas];
+-- 7)
+SELECT * FROM [Maquinas CostoMayor];
