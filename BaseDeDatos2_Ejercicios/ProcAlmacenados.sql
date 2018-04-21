@@ -63,7 +63,31 @@ CREATE PROCEDURE PromedioSueldosObra
 AS
 BEGIN
 SELECT AVG (sueldo) AS 'Promedio' FROM Empleados
-INNER JOIN Trabajan ON Empleados.ci = Trabajan.ciEmps
+INNER JOIN Trabajan ON Empleados.ci = Trabajan.ciEmp
 WHERE codObr = @codObr;
+END
+GO
+
+-- EXTRAS
+-- Mostrar Info Empleado
+CREATE PROCEDURE MostrarEmpleado
+@ci int
+AS
+BEGIN
+SELECT * FROM Empleados WHERE ci = @ci;
+END
+GO
+
+-- Mostrar SI o NO si una Maquina Existe
+CREATE PROCEDURE MaquinaExiste @salida varchar(2) output,
+@matricula varchar(50)
+AS
+BEGIN
+IF EXISTS (SELECT * FROM Maquinas WHERE matricula = @matricula) BEGIN 
+SET @salida = 'SI'
+END
+ELSE BEGIN
+SET @salida = 'NO'
+END
 END
 GO

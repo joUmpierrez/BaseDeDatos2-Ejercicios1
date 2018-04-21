@@ -30,3 +30,20 @@ GO
 -- 7) Dado el codigo de una obra mostrar el promedio de sueldo de sus empleados
 EXEC PromedioSueldosObra 235;
 GO
+
+-- EXTRAS
+-- Muestra el empleado
+EXEC MostrarEmpleado 11111111;
+
+-- Devuelve un SI o un NO, en caso de que exista o no, una maquina
+DECLARE @salidaMaquinaNoExiste varchar(2);
+EXEC MaquinaExiste4 @salidaMaquinaNoExiste output, 'B456356';
+PRINT @salidaMaquina;
+
+DECLARE @salidaMaquinaExiste varchar(2);
+EXEC MaquinaExiste4 @salidaMaquinaExiste output, 'ACG646';
+SELECT @salidaMaquinaExiste;
+
+-- Funciones Almacenadas
+SELECT dbo.DevuelveUnDos(2);
+SELECT * FROM dbo.F('Montevideo');
