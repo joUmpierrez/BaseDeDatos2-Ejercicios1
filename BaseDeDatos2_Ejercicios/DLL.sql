@@ -51,3 +51,7 @@ ALTER TABLE Ciudades ADD CONSTRAINT Unique_Int_Alc UNIQUE (intendente, alcalde);
 -- Seleccionar CASCADA para Eliminacion de Trabajan cuando sea eliminado el Empleado
 ALTER TABLE Trabajan DROP CONSTRAINT FK_Trabajan_Empleados;
 ALTER TABLE Trabajan ADD CONSTRAINT FK_Trabajan_Empleados FOREIGN KEY (ciEmp) REFERENCES Empleados(ci) ON DELETE CASCADE;
+
+-- Agrega a la tabla Ciudades la columna 'CantidadObras'
+ALTER TABLE Ciudades ADD CantidadObras int; 
+UPDATE CIUDADES SET CantidadObras = 0;

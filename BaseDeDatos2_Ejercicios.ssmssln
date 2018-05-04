@@ -3,14 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # SQL Server Management Studio Solution File, Format Version 14.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BaseDeDatos2_Ejercicios", "BaseDeDatos2_Ejercicios\BaseDeDatos2_Ejercicios.ssmssqlproj", "{0BCA82C5-F3A5-4A7E-A448-022ED80A8545}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BaseDeDatos2_Ejercicios", "BaseDeDatos2_Ejercicios\BaseDeDatos2_Ejercicios.ssmssqlproj", "{A4EDA76C-6F1D-4D50-B7F3-DB78DA4A8CF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BCA82C5-F3A5-4A7E-A448-022ED80A8545}.Default|Default.ActiveCfg = Default
+		{A2D914F8-D1D7-4FF1-B73F-E1F7405EE339}.Default|Default.ActiveCfg = Default
+		{A4EDA76C-6F1D-4D50-B7F3-DB78DA4A8CF4}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

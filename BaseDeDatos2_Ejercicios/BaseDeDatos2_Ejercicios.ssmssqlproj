@@ -43,11 +43,23 @@
           <AssociatedConnUserName />
           <FullPath>Ejecuciones.sql</FullPath>
         </FileNode>
+        <FileNode Name="FuncAlmacenadas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FuncAlmacenadas.sql</FullPath>
+        </FileNode>
         <FileNode Name="ProcAlmacenados.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ProcAlmacenados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Triggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Triggers.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -37,13 +37,28 @@ EXEC MostrarEmpleado 11111111;
 
 -- Devuelve un SI o un NO, en caso de que exista o no, una maquina
 DECLARE @salidaMaquinaNoExiste varchar(2);
-EXEC MaquinaExiste4 @salidaMaquinaNoExiste output, 'B456356';
-PRINT @salidaMaquina;
+EXEC MaquinaExiste @salidaMaquinaNoExiste output, 'B456356';
+PRINT @salidaMaquinaNoExiste;
 
 DECLARE @salidaMaquinaExiste varchar(2);
-EXEC MaquinaExiste4 @salidaMaquinaExiste output, 'ACG646';
+EXEC MaquinaExiste @salidaMaquinaExiste output, 'ACG646';
 SELECT @salidaMaquinaExiste;
 
+
 -- Funciones Almacenadas
+-- Una simple funcion que devuelve un 2
 SELECT dbo.DevuelveUnDos(2);
+
+-- Devuelve los valores que se encuentran en la ciudad de Montevideo
 SELECT * FROM dbo.F('Montevideo');
+
+
+-- Triggers
+-- Sirve para probar que se haya agregado una obras a 'Montevideo'
+INSERT INTO Obras (codObr, descripcion, capataz, nomCiud) VALUES (1131, 'Obra fea', 'RaulSendic', 'Montevideo'); 
+
+-- Sirve para probar que se haya trasladado la obra de 'Montevideo' a 'Maldonado'
+UPDATE Obras SET nomCiud = 'Maldonado' WHERE codObr = 1131;
+
+-- Sirve para probar que se haya borrado una obras a 'Montevideo'
+DELETE FROM Obras WHERE codObr = 1131;
