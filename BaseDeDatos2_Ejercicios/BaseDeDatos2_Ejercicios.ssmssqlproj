@@ -19,6 +19,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="Cursores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Cursores.sql</FullPath>
+        </FileNode>
         <FileNode Name="DatosPrueba.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
@@ -54,6 +60,18 @@
           <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>ProcAlmacenados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SintaxisSQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SintaxisSQL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transaccion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>JOAQUIN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Transaccion.sql</FullPath>
         </FileNode>
         <FileNode Name="Triggers.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:JOAQUIN:True</AssociatedConnectionMoniker>

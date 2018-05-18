@@ -1,7 +1,7 @@
 USE BaseDeDatos2_Database;
 GO;
 
-ALTER FUNCTION NombresDeCiudades ()
+CREATE FUNCTION NombresDeCiudades ()
 RETURNS varchar(200)
 AS BEGIN
 DECLARE @nombre varchar(50);

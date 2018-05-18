@@ -55,3 +55,4 @@ ALTER TABLE Trabajan ADD CONSTRAINT FK_Trabajan_Empleados FOREIGN KEY (ciEmp) RE
 -- Agrega a la tabla Ciudades la columna 'CantidadObras'
 ALTER TABLE Ciudades ADD CantidadObras int; 
 UPDATE CIUDADES SET CantidadObras = 0;
+

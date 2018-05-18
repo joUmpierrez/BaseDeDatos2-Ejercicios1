@@ -15,5 +15,3 @@ AS BEGIN
 END
 
 EXEC InsertarCiudad;
-
-
