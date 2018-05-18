@@ -58,10 +58,10 @@ SELECT * FROM Montura WHERE EXISTS
 
 -- 4.b)	Seleccionar las monturas donde haya stock para dos colores diferentes.
 CREATE VIEW MonturasDosColores AS
-SELECT * FROM Montura WHERE EXISTS
-(SELECT COUNT (IdColor) FROM Stock
-GROUP BY  (IdMontura)
-HAVING COUNT (IdColor) = 2);
+SELECT * FROM Montura WHERE EXISTS -- --> Selecciona las Monturas donde se cumpla la siguiente condicion:
+(SELECT COUNT (IdColor) FROM Stock -- --> Selecciona cuantos IdColor hay en la tabla Stocks
+GROUP BY  (IdMontura)              -- --> Agrupados segun su IdMontura
+HAVING COUNT (IdColor) = 2);       -- --> Pero de esos, solo selecciona aquellos en los cuales el COUNT (IdColor) sea igual a [2]
 
 -- 4.c)	Seleccionar la combinación montura-color donde dicha combinación NO se haya vendido nunca en la óptica.
 CREATE VIEW NoVendida AS
